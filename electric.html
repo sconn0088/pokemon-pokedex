@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pokemon Pokedex</title>
+	<link rel="stylesheet" href="pokemon.css">
+	<link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1"></script>
+	<script type="text/javascript" src="pokemon.js"></script>
+</head>
+
+<body>
+	<header class="container group">
+		<h1>
+			<a href="pokemon.html">Scott's Pok&eacute;dex</a>
+		</h1>
+		<nav>
+			<a href="normal.html">
+				<p class="nav-icon type-normal">Normal</p>
+			</a>
+			<a href="fire.html">
+				<p class="nav-icon type-fire">Fire</p>
+			</a>
+			<a href="water.html">
+				<p class="nav-icon type-water">Water</p>
+			</a>
+			<a href="electric.html">
+				<p class="nav-icon type-electric">Electric</p>
+			</a>
+			<a href="grass.html">
+				<p class="nav-icon type-grass">Grass</p>
+			</a>
+			<a href="ice.html">
+				<p class="nav-icon type-ice">Ice</p>
+			</a>
+			<a href="fighting.html">
+				<p class="nav-icon type-fighting">Fighting</p>
+			</a>
+			<a href="poison.html">
+				<p class="nav-icon type-poison">Poison</p>
+			</a>
+			<a href="ground.html">
+				<p class="nav-icon type-ground">Ground</p>
+			</a>
+			<a href="flying.html">
+				<p class="nav-icon type-flying">Flying</p>
+			</a>
+			<a href="psychic.html">
+				<p class="nav-icon type-psychic">Psychic</p>
+			</a>
+			<a href="bug.html">
+				<p class="nav-icon type-bug">Bug</p>
+			</a>
+			<a href="rock.html">
+				<p class="nav-icon type-rock">Rock</p>
+			</a>
+			<a href="ghost.html">
+				<p class="nav-icon type-ghost">Ghost</p>
+			</a>
+			<a href="dragon.html">
+				<p class="nav-icon type-dragon">Dragon</p>
+			</a>
+		</nav>
+	</header>
+	
+	<section class="container">
+		<h1 class="color-electric">Electric</h1>
+		<h2><span class="color-electric">Electric</span> Pok&eacute;mon stat averages</h2>
+		<div class="stat-summary">
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">63.2</span><br>
+				HP<br>
+				<small class="aside">Ranked #12</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">69.5</span><br>
+				Attack<br>
+				<small class="aside">Ranked #15</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">66.5</span><br>
+				Defense<br>
+				<small class="aside">Ranked #13</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">89.0</span><br>
+				Sp. Attack<br>
+				<small class="aside">Ranked #4</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">73.7</span><br>
+				Sp. Defense<br>
+				<small class="aside">Ranked #7</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">82.9</span><br>
+				Speed<br>
+				<small class="aside">Ranked #2</small>
+			</div>
+		</div>
+	</section>
+	
+	<section class="container row">
+	<div class="col-1-2">
+		<h2>Attack pros & cons</h2>
+		<p><span class="color-electric">Electric</span> moves are super-effective against:</p>
+		<p class="type-icon type-water">Water</p>
+		<p class="type-icon type-flying">Flying</p>
+		<p><span class="color-electric">Electric</span> moves are not very effective against:</p>
+		<p class="type-icon type-electric">Electric</p>
+		<p class="type-icon type-grass">Grass</p>
+		<p class="type-icon type-dragon">Dragon</p>
+		<p><span class="color-electric">Electric</span> moves have no effect on:</p>
+		<p class="type-icon type-ground">Ground</p>
+	</div><!--
+	--><div class="col-1-2">
+		<h2>Defense pros & cons</h2>
+		<p>These types are not very effective against <span class="color-electric">Electric</span> Pok&eacute;mon:</p>
+		<p class="type-icon type-electric">Electric</p>
+		<p class="type-icon type-flying">Flying</p>
+		<p>These types are super-effective against <span class="color-electric">Electric</span> Pok&eacute;mon:</p>
+		<p class="type-icon type-ground">Ground</p>
+	</div>
+	</section>
+	
+	<section class="container row">
+	<h2 class="center-text"><span class="color-electric">Electric</span> Pok&eacute;mon</h2>
+		<table class="container">
+			<tbody>
+				<tr>
+					<th>
+						<a href="#">Pikachu</a>
+					</th>
+					<td>
+						<img class="small-photo electric" id="pikachu" src="Pikachu.png">
+					</td>
+					<th>
+						<a href="#">Raichu</a>
+					</th>
+					<td>
+						<img class="small-photo electric" id="raichu" src="Raichu.png">
+					</td>
+					<th>
+						<a href="#">Magnemite</a>
+					</th>
+					<td>
+						<img class="small-photo electric" id="magnemite" src="Magnemite.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Magneton</a>
+					</th>
+					<td>
+						<img class="small-photo electric" id="magneton" src="Magneton.png">
+					</td>
+					<th>
+						<a href="#">Voltorb</a>
+					</th>
+					<td>
+						<img class="small-photo electric" id="voltorb" src="Voltorb.png">
+					</td>
+					<th>
+						<a href="#">Electrode</a>
+					</th>
+					<td>
+						<img class="small-photo electric" id="electrode" src="Electrode.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Electabuzz</a>
+					</th>
+					<td>
+						<img class="small-photo electric" id="electabuzz" src="Electabuzz.png">
+					</td>
+					<th>
+						<a href="#">Jolteon</a>
+					</th>
+					<td>
+						<img class="small-photo electric" id="jolteon" src="Jolteon.png">
+					</td>
+					<th>
+						<a href="#">Zapdos</a>
+					</th>
+					<td>
+						<img class="small-photo electric" id="zapdos" src="Zapdos.png">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	
+</body>
+</html>

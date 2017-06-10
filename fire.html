@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pokemon Pokedex</title>
+	<link rel="stylesheet" href="pokemon.css">
+	<link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1"></script>
+	<script type="text/javascript" src="pokemon.js"></script>
+</head>
+
+<body>
+	<header class="container group">
+		<h1>
+			<a href="pokemon.html">Scott's Pok&eacute;dex</a>
+		</h1>
+		<nav>
+			<a href="normal.html">
+				<p class="nav-icon type-normal">Normal</p>
+			</a>
+			<a href="fire.html">
+				<p class="nav-icon type-fire">Fire</p>
+			</a>
+			<a href="water.html">
+				<p class="nav-icon type-water">Water</p>
+			</a>
+			<a href="electric.html">
+				<p class="nav-icon type-electric">Electric</p>
+			</a>
+			<a href="grass.html">
+				<p class="nav-icon type-grass">Grass</p>
+			</a>
+			<a href="ice.html">
+				<p class="nav-icon type-ice">Ice</p>
+			</a>
+			<a href="fighting.html">
+				<p class="nav-icon type-fighting">Fighting</p>
+			</a>
+			<a href="poison.html">
+				<p class="nav-icon type-poison">Poison</p>
+			</a>
+			<a href="ground.html">
+				<p class="nav-icon type-ground">Ground</p>
+			</a>
+			<a href="flying.html">
+				<p class="nav-icon type-flying">Flying</p>
+			</a>
+			<a href="psychic.html">
+				<p class="nav-icon type-psychic">Psychic</p>
+			</a>
+			<a href="bug.html">
+				<p class="nav-icon type-bug">Bug</p>
+			</a>
+			<a href="rock.html">
+				<p class="nav-icon type-rock">Rock</p>
+			</a>
+			<a href="ghost.html">
+				<p class="nav-icon type-ghost">Ghost</p>
+			</a>
+			<a href="dragon.html">
+				<p class="nav-icon type-dragon">Dragon</p>
+			</a>
+		</nav>
+	</header>
+	
+	<section class="container">
+		<h1 class="color-fire">Fire</h1>
+		<h2><span class="color-fire">Fire</span> Pok&eacute;mon stat averages</h2>
+		<div class="stat-summary">
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">70.2</span><br>
+				HP<br>
+				<small class="aside">Ranked #9</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">84.1</span><br>
+				Attack<br>
+				<small class="aside">Ranked #5</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">70.1</span><br>
+				Defense<br>
+				<small class="aside">Ranked #11</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">93.0</span><br>
+				Sp. Attack<br>
+				<small class="aside">Ranked #3</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">74.3</span><br>
+				Sp. Defense<br>
+				<small class="aside">Ranked #5</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">75.4</span><br>
+				Speed<br>
+				<small class="aside">Ranked #6</small>
+			</div>
+		</div>
+	</section>
+	
+	<section class="container row">
+	<div class="col-1-2">
+		<h2>Attack pros & cons</h2>
+		<p><span class="color-fire">Fire</span> moves are super-effective against:</p>
+		<p class="type-icon type-grass">Grass</p>
+		<p class="type-icon type-ice">Ice</p>
+		<p class="type-icon type-bug">Bug</p>
+		<p><span class="color-fire">Fire</span> moves are not very effective against:</p>
+		<p class="type-icon type-fire">Fire</p>
+		<p class="type-icon type-water">Water</p>
+		<p class="type-icon type-rock">Rock</p>
+		<p class="type-icon type-dragon">Dragon</p>
+	</div><!--
+	--><div class="col-1-2">
+		<h2>Defense pros & cons</h2>
+		<p>These types are not very effective against <span class="color-fire">Fire</span> Pok&eacute;mon:</p>
+		<p class="type-icon type-fire">Fire</p>
+		<p class="type-icon type-grass">Grass</p>
+		<p class="type-icon type-ice">Ice</p>
+		<p class="type-icon type-bug">Bug</p>
+		<p>These types are super-effective against <span class="color-fire">Fire</span> Pok&eacute;mon:</p>
+		<p class="type-icon type-water">Water</p>
+		<p class="type-icon type-ground">Ground</p>
+		<p class="type-icon type-rock">Rock</p>
+	</div>
+	</section>
+	
+	<section class="container row">
+	<h2 class="center-text"><span class="color-fire">Fire</span> Pok&eacute;mon</h2>
+		<table class="container">
+			<tbody>
+				<tr>
+					<th>
+						<a href="#">Charmander</a>
+					</th>
+					<td>
+						<img class="small-photo fire" id="charmander" src="Charmander.png">
+					</td>
+					<th>
+						<a href="#">Charmeleon</a>
+					</th>
+					<td>
+						<img class="small-photo fire" id="charmeleon" src="Charmeleon.png">
+					</td>
+					<th>
+						<a href="#">Charizard</a>
+					</th>
+					<td>
+						<img class="small-photo fire" id="charizard" src="Charizard.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Vulpix</a>
+					</th>
+					<td>
+						<img class="small-photo fire" id="vulpix" src="Vulpix.png">
+					</td>
+					<th>
+						<a href="#">Ninetales</a>
+					</th>
+					<td>
+						<img class="small-photo fire" id="ninetales" src="Ninetales.png">
+					</td>
+					<th>
+						<a href="#">Growlithe</a>
+					</th>
+					<td>
+						<img class="small-photo fire" id="growlithe" src="Growlithe.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Arcanine</a>
+					</th>
+					<td>
+						<img class="small-photo fire" id="arcanine" src="Arcanine.png">
+					</td>
+					<th>
+						<a href="#">Ponyta</a>
+					</th>
+					<td>
+						<img class="small-photo fire" id="ponyta" src="Ponyta.png">
+					</td>
+					<th>
+						<a href="#">Rapidash</a>
+					</th>
+					<td>
+						<img class="small-photo fire" id="rapidash" src="Rapidash.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Magmar</a>
+					</th>
+					<td>
+						<img class="small-photo fire" id="magmar" src="Magmar.png">
+					</td>
+					<th>
+						<a href="#">Flareon</a>
+					</th>
+					<td>
+						<img class="small-photo fire" id="flareon" src="Flareon.png">
+					</td>
+					<th>
+						<a href="#">Moltres</a>
+					</th>
+					<td>
+						<img class="small-photo fire" id="moltres" src="Moltres.png">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	
+</body>
+</html>

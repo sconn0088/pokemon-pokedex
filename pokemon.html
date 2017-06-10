@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pokemon Pokedex</title>
+	<link rel="stylesheet" href="pokemon.css">
+	<link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1"></script>
+	<script type="text/javascript" src="pokemon.js"></script>
+</head>
+
+<body>
+	<header class="container group">
+		<h1>
+			<a href="pokemon.html">Scott's Pok&eacute;dex</a>
+		</h1>
+		<nav>
+			<a href="normal.html">
+				<p class="nav-icon type-normal">Normal</p>
+			</a>
+			<a href="fire.html">
+				<p class="nav-icon type-fire">Fire</p>
+			</a>
+			<a href="water.html">
+				<p class="nav-icon type-water">Water</p>
+			</a>
+			<a href="electric.html">
+				<p class="nav-icon type-electric">Electric</p>
+			</a>
+			<a href="grass.html">
+				<p class="nav-icon type-grass">Grass</p>
+			</a>
+			<a href="ice.html">
+				<p class="nav-icon type-ice">Ice</p>
+			</a>
+			<a href="fighting.html">
+				<p class="nav-icon type-fighting">Fighting</p>
+			</a>
+			<a href="poison.html">
+				<p class="nav-icon type-poison">Poison</p>
+			</a>
+			<a href="ground.html">
+				<p class="nav-icon type-ground">Ground</p>
+			</a>
+			<a href="flying.html">
+				<p class="nav-icon type-flying">Flying</p>
+			</a>
+			<a href="psychic.html">
+				<p class="nav-icon type-psychic">Psychic</p>
+			</a>
+			<a href="bug.html">
+				<p class="nav-icon type-bug">Bug</p>
+			</a>
+			<a href="rock.html">
+				<p class="nav-icon type-rock">Rock</p>
+			</a>
+			<a href="ghost.html">
+				<p class="nav-icon type-ghost">Ghost</p>
+			</a>
+			<a href="dragon.html">
+				<p class="nav-icon type-dragon">Dragon</p>
+			</a>
+		</nav>
+	</header>
+	
+	<section class="container">
+		<p class="center-text">Explore the Pok&eacute;mon Pod&eacute;dex by 
+		type or name. Hover over an image to see the Pok&eacute;mon's 
+		evolution cycle.</p>
+	</section>
+	
+	<div class="container">
+		<figure>
+			<img class="photo grass" id="bulbasaur" src="Bulbasaur.png">
+			<figcaption>
+				<a href="#">Bulbasaur</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo fire" id="charmander" src="Charmander.png">
+			<figcaption>
+				<a href="#">Charmander</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="squirtle" src="Squirtle.png">
+			<figcaption>
+				<a href="#">Squirtle</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo bug" id="caterpie" src="Caterpie.png">
+			<figcaption>
+				<a href="#">Caterpie</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo bug" id="weedle" src="Weedle.png">
+			<figcaption>
+				<a href="#">Weedle</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo flying" id="pidgey" src="Pidgey.png">
+			<figcaption>
+				<a href="#">Pidgey</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo normal" id="rattata" src="Rattata.png">
+			<figcaption>
+				<a href="#">Rattata</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo flying" id="spearow" src="Spearow.png">
+			<figcaption>
+				<a href="#">Spearow</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo poison" id="ekans" src="Ekans.png">
+			<figcaption>
+				<a href="#">Ekans</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo electric" id="pikachu" src="Pikachu.png">
+			<figcaption>
+				<a href="#">Pikachu</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo ground" id="sandshrew" src="Sandshrew.png">
+			<figcaption>
+				<a href="#">Sandshrew</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo poison" id="nidoran-f" src="Nidoran-f.png">
+			<figcaption>
+				<a href="#">Nidoran&#9792;</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo poison" id="nidoran-m" src="Nidoran-m.png">
+			<figcaption>
+				<a href="#">Nidoran&#9794;</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo normal" id="clefairy" src="Clefairy.png">
+			<figcaption>
+				<a href="#">Clefairy</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo fire" id="vulpix" src="Vulpix.png">
+			<figcaption>
+				<a href="#">Vulpix</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo normal" id="jigglypuff" src="Jigglypuff.png">
+			<figcaption>
+				<a href="#">Jigglypuff</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo poison" id="zubat" src="Zubat.png">
+			<figcaption>
+				<a href="#">Zubat</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo grass" id="oddish" src="Oddish.png">
+			<figcaption>
+				<a href="#">Oddish</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo bug" id="paras" src="Paras.png">
+			<figcaption>
+				<a href="#">Paras</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo bug" id="venonat" src="Venonat.png">
+			<figcaption>
+				<a href="#">Venonat</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo ground" id="diglett" src="Diglett.png">
+			<figcaption>
+				<a href="#">Diglett</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo normal" id="meowth" src="Meowth.png">
+			<figcaption>
+				<a href="#">Meowth</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="psyduck" src="Psyduck.png">
+			<figcaption>
+				<a href="#">Psyduck</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo fighting" id="mankey" src="Mankey.png">
+			<figcaption>
+				<a href="#">Mankey</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo fire" id="growlithe" src="Growlithe.png">
+			<figcaption>
+				<a href="#">Growlithe</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="poliwag" src="Poliwag.png">
+			<figcaption>
+				<a href="#">Poliwag</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo psychic" id="abra" src="Abra.png">
+			<figcaption>
+				<a href="#">Abra</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo fighting" id="machop" src="Machop.png">
+			<figcaption>
+				<a href="#">Machop</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo grass" id="bellsprout" src="Bellsprout.png">
+			<figcaption>
+				<a href="#">Bellsprout</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="tentacool" src="Tentacool.png">
+			<figcaption>
+				<a href="#">Tentacool</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo rock" id="geodude" src="Geodude.png">
+			<figcaption>
+				<a href="#">Geodude</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo fire" id="ponyta" src="Ponyta.png">
+			<figcaption>
+				<a href="#">Ponyta</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="slowpoke" src="Slowpoke.png">
+			<figcaption>
+				<a href="#">Slowpoke</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo electric" id="magnemite" src="Magnemite.png">
+			<figcaption>
+				<a href="#">Magnemite</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo flying" id="farfetchd" src="Farfetch'd.png">
+			<figcaption>
+				<a href="#">Farfetch'd</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo flying" id="doduo" src="Doduo.png">
+			<figcaption>
+				<a href="#">Doduo</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="seel" src="Seel.png">
+			<figcaption>
+				<a href="#">Seel</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo poison" id="grimer" src="Grimer.png">
+			<figcaption>
+				<a href="#">Grimer</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="shellder" src="Shellder.png">
+			<figcaption>
+				<a href="#">Shellder</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo ghost" id="gastly" src="Gastly.png">
+			<figcaption>
+				<a href="#">Gastly</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo rock" id="onix" src="Onix.png">
+			<figcaption>
+				<a href="#">Onix</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo psychic" id="drowzee" src="Drowzee.png">
+			<figcaption>
+				<a href="#">Drowzee</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="krabby" src="Krabby.png">
+			<figcaption>
+				<a href="#">Krabby</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo electric" id="voltorb" src="Voltorb.png">
+			<figcaption>
+				<a href="#">Voltorb</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo grass" id="exeggcute" src="Exeggcute.png">
+			<figcaption>
+				<a href="#">Exeggcute</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo ground" id="cubone" src="Cubone.png">
+			<figcaption>
+				<a href="#">Cubone</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo fighting" id="hitmonlee" src="Hitmonlee.png">
+			<figcaption>
+				<a href="#">Hitmonlee</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo fighting" id="hitmonchan" src="Hitmonchan.png">
+			<figcaption>
+				<a href="#">Hitmonchan</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo normal" id="lickitung" src="Lickitung.png">
+			<figcaption>
+				<a href="#">Lickitung</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo poison" id="koffing" src="Koffing.png">
+			<figcaption>
+				<a href="#">Koffing</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo rock" id="rhyhorn" src="Rhyhorn.png">
+			<figcaption>
+				<a href="#">Rhyhorn</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo normal" id="chansey" src="Chansey.png">
+			<figcaption>
+				<a href="#">Chansey</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo grass" id="tangela" src="Tangela.png">
+			<figcaption>
+				<a href="#">Tangela</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo normal" id="kangaskhan" src="Kangaskhan.png">
+			<figcaption>
+				<a href="#">Kangaskhan</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="horsea" src="Horsea.png">
+			<figcaption>
+				<a href="#">Horsea</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="goldeen" src="Goldeen.png">
+			<figcaption>
+				<a href="#">Goldeen</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="staryu" src="Staryu.png">
+			<figcaption>
+				<a href="#">Staryu</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo psychic" id="mrmime" src="Mr._Mime.png">
+			<figcaption>
+				<a href="#">Mr. Mime</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo bug" id="scyther" src="Scyther.png">
+			<figcaption>
+				<a href="#">Scyther</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo psychic" id="jynx" src="Jynx.png">
+			<figcaption>
+				<a href="#">Jynx</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo electric" id="electabuzz" src="Electabuzz.png">
+			<figcaption>
+				<a href="#">Electabuzz</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo fire" id="magmar" src="Magmar.png">
+			<figcaption>
+				<a href="#">Magmar</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo bug" id="pinsir" src="Pinsir.png">
+			<figcaption>
+				<a href="#">Pinsir</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo normal" id="tauros" src="Tauros.png">
+			<figcaption>
+				<a href="#">Tauros</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="magikarp" src="Magikarp.png">
+			<figcaption>
+				<a href="#">Magikarp</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="lapras" src="Lapras.png">
+			<figcaption>
+				<a href="#">Lapras</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo normal" id="ditto" src="Ditto.png">
+			<figcaption>
+				<a href="#">Ditto</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo normal" id="eevee" src="Eevee.png">
+			<figcaption>
+				<a href="#">Eevee</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo normal" id="porygon" src="Porygon.png">
+			<figcaption>
+				<a href="#">Porygon</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="omanyte" src="Omanyte.png">
+			<figcaption>
+				<a href="#">Omanyte</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo water" id="kabuto" src="Kabuto.png">
+			<figcaption>
+				<a href="#">Kabuto</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo rock" id="aerodactyl" src="Aerodactyl.png">
+			<figcaption>
+				<a href="#">Aerodactyl</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo normal" id="snorlax" src="Snorlax.png">
+			<figcaption>
+				<a href="#">Snorlax</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo ice" id="articuno" src="Articuno.png">
+			<figcaption>
+				<a href="#">Articuno</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo electric" id="zapdos" src="Zapdos.png">
+			<figcaption>
+				<a href="#">Zapdos</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo fire" id="moltres" src="Moltres.png">
+			<figcaption>
+				<a href="#">Moltres</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo dragon" id="dratini" src="Dratini.png">
+			<figcaption>
+				<a href="#">Dratini</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo psychic" id="mewtwo" src="Mewtwo.png">
+			<figcaption>
+				<a href="#">Mewtwo</a>
+			</figcaption>
+		</figure>
+		<figure>
+			<img class="photo psychic" id="mew" src="Mew.png">
+			<figcaption>
+				<a href="#">Mew</a>
+			</figcaption>
+		</figure>
+	</div>
+	
+	<div class="row"></div>
+</body>
+</html>

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pokemon Pokedex</title>
+	<link rel="stylesheet" href="pokemon.css">
+	<link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1"></script>
+	<script type="text/javascript" src="pokemon.js"></script>
+</head>
+
+<body>
+	<header class="container group">
+		<h1>
+			<a href="pokemon.html">Scott's Pok&eacute;dex</a>
+		</h1>
+		<nav>
+			<a href="normal.html">
+				<p class="nav-icon type-normal">Normal</p>
+			</a>
+			<a href="fire.html">
+				<p class="nav-icon type-fire">Fire</p>
+			</a>
+			<a href="water.html">
+				<p class="nav-icon type-water">Water</p>
+			</a>
+			<a href="electric.html">
+				<p class="nav-icon type-electric">Electric</p>
+			</a>
+			<a href="grass.html">
+				<p class="nav-icon type-grass">Grass</p>
+			</a>
+			<a href="ice.html">
+				<p class="nav-icon type-ice">Ice</p>
+			</a>
+			<a href="fighting.html">
+				<p class="nav-icon type-fighting">Fighting</p>
+			</a>
+			<a href="poison.html">
+				<p class="nav-icon type-poison">Poison</p>
+			</a>
+			<a href="ground.html">
+				<p class="nav-icon type-ground">Ground</p>
+			</a>
+			<a href="flying.html">
+				<p class="nav-icon type-flying">Flying</p>
+			</a>
+			<a href="psychic.html">
+				<p class="nav-icon type-psychic">Psychic</p>
+			</a>
+			<a href="bug.html">
+				<p class="nav-icon type-bug">Bug</p>
+			</a>
+			<a href="rock.html">
+				<p class="nav-icon type-rock">Rock</p>
+			</a>
+			<a href="ghost.html">
+				<p class="nav-icon type-ghost">Ghost</p>
+			</a>
+			<a href="dragon.html">
+				<p class="nav-icon type-dragon">Dragon</p>
+			</a>
+		</nav>
+	</header>
+	
+	<section class="container">
+		<h1 class="color-water">Water</h1>
+		<h2><span class="color-water">Water</span> Pok&eacute;mon stat averages</h2>
+		<div class="stat-summary">
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">71.0</span><br>
+				HP<br>
+				<small class="aside">Ranked #8</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">73.7</span><br>
+				Attack<br>
+				<small class="aside">Ranked #9</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">74.3</span><br>
+				Defense<br>
+				<small class="aside">Ranked #7</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">74.8</span><br>
+				Sp. Attack<br>
+				<small class="aside">Ranked #8</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">70.3</span><br>
+				Sp. Defense<br>
+				<small class="aside">Ranked #11</small>
+			</div>
+			<div class="stat-summary-item">
+				<span class="stat-summary-count">65.0</span><br>
+				Speed<br>
+				<small class="aside">Ranked #10</small>
+			</div>
+		</div>
+	</section>
+	
+	<section class="container row">
+	<div class="col-1-2">
+		<h2>Attack pros & cons</h2>
+		<p><span class="color-water">Water</span> moves are super-effective against:</p>
+		<p class="type-icon type-fire">Fire</p>
+		<p class="type-icon type-ground">Ground</p>
+		<p class="type-icon type-rock">Rock</p>
+		<p><span class="color-water">Water</span> moves are not very effective against:</p>
+		<p class="type-icon type-water">Water</p>
+		<p class="type-icon type-grass">Grass</p>
+		<p class="type-icon type-dragon">Dragon</p>
+	</div><!--
+	--><div class="col-1-2">
+		<h2>Defense pros & cons</h2>
+		<p>These types are not very effective against <span class="color-water">Water</span> Pok&eacute;mon:</p>
+		<p class="type-icon type-fire">Fire</p>
+		<p class="type-icon type-water">Water</p>
+		<p class="type-icon type-ice">Ice</p>
+		<p>These types are super-effective against <span class="color-water">Water</span> Pok&eacute;mon:</p>
+		<p class="type-icon type-electric">Electric</p>
+		<p class="type-icon type-grass">Grass</p>
+	</div>
+	</section>
+	
+	<section class="container row">
+	<h2 class="center-text"><span class="color-water">Water</span> Pok&eacute;mon</h2>
+		<table class="grid">
+			<tbody>
+				<tr>
+					<th>
+						<a href="#">Squirtle</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="squirtle" src="Squirtle.png">
+					</td>
+					<th>
+						<a href="#">Wartortle</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="wartortle" src="Wartortle.png">
+					</td>
+					<th>
+						<a href="#">Blastoise</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="blastoise" src="Blastoise.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Psyduck</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="psyduck" src="Psyduck.png">
+					</td>
+					<th>
+						<a href="#">Golduck</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="golduck" src="Golduck.png">
+					</td>
+					<th>
+						<a href="#">Poliwag</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="poliwag" src="Poliwag.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Poliwhirl</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="poliwhirl" src="Poliwhirl.png">
+					</td>
+					<th>
+						<a href="#">Poliwrath</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="poliwrath" src="Poliwrath.png">
+					</td>
+					<th>
+						<a href="#">Tentacool</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="tentacool" src="Tentacool.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Tentacruel</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="tentacruel" src="Tentacruel.png">
+					</td>
+					<th>
+						<a href="#">Slowpoke</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="slowpoke" src="Slowpoke.png">
+					</td>
+					<th>
+						<a href="#">Slowro</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="slowbro" src="Slowbro.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Seel</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="seel" src="Seel.png">
+					</td>
+					<th>
+						<a href="#">Dewgong</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="dewgong" src="Dewgong.png">
+					</td>
+					<th>
+						<a href="#">Shellder</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="shellder" src="Shellder.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Cloyster</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="cloyster" src="Cloyster.png">
+					</td>
+					<th>
+						<a href="#">Krabby</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="krabby" src="Krabby.png">
+					</td>
+					<th>
+						<a href="#">Kingler</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="kingler" src="Kingler.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Horsea</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="horsea" src="Horsea.png">
+					</td>
+					<th>
+						<a href="#">Seadra</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="seadra" src="Seadra.png">
+					</td>
+					<th>
+						<a href="#">Goldeen</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="goldeen" src="Goldeen.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Seaking</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="seaking" src="Seaking.png">
+					</td>
+					<th>
+						<a href="#">Staryu</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="staryu" src="Staryu.png">
+					</td>
+					<th>
+						<a href="#">Starmie</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="starmie" src="Starmie.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Magikarp</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="magikarp" src="Magikarp.png">
+					</td>
+					<th>
+						<a href="#">Gyarados</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="gyarados" src="Gyarados.png">
+					</td>
+					<th>
+						<a href="#">Lapras</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="lapras" src="Lapras.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Vaporeon</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="vaporeon" src="Vaporeon.png">
+					</td>
+					<th>
+						<a href="#">Omanyte</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="omanyte" src="Omanyte.png">
+					</td>
+					<th>
+						<a href="#">Omastar</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="omastar" src="Omastar.png">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<a href="#">Kabuto</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="kabuto" src="Kabuto.png">
+					</td>
+					<th>
+						<a href="#">Kabutops</a>
+					</th>
+					<td>
+						<img class="small-photo water" id="kabutops" src="Kabutops.png">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</body>
+</html>
